@@ -2,5 +2,33 @@
   "dependencies": {
     "http-server": "^0.12.3",
     "node-static": "^0.7.11"
-  }
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "name": "reactjs",
+  "description": "# comment",
+  "version": "1.0.0",
+  "main": "random.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build3" : "./node_modules/.bin/babel ./3/sample.jsx -o ./3/js/sample.js -w",
+    "build" : "./node_modules/.bin/babel <source_directory> -o script-compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksngo/Reactjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksngo/Reactjs/issues"
+  },
+  "homepage": "https://github.com/ksngo/Reactjs#readme"
 }
