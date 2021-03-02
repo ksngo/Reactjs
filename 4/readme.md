@@ -21,6 +21,6 @@ const HelloWorld = function(props){
 }
 ```
 
-npm run build4 (focus here is the dota.jsx and dota_script.jsx)
-change filename index6.html to index.html
-static
+npm run build4 (focus here is the dota.jsx and dota_script.jsx)  
+change filename index6.html to index.html  
+static  
