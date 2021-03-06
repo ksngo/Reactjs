@@ -10,4 +10,4 @@
 6.6) Triggering event from a component with state  
 6.7) Triggering an event from a stateless component by passing the event handler as a property  
 6.11) Responding to DOM events not supported by React by adding handlerevent to window.addEventListener in lifecycles and remembering to discard the eventlistener too when component is unmount.  
-6.13) Integrating Jquery with events (don't understand)
+6.13) Integrating Jquery with events (don't understand)  

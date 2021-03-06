@@ -1,9 +1,9 @@
 # Reactjs
 Common steps :  
-npm install -g node-static
-npm run buildxxx (Babel to convert JSX to JS)
-cd <target_folder>
-static
+npm install -g node-static  
+npm run buildxxx (Babel to convert JSX to JS)  
+cd <target_folder>  
+static  
 
 # script commands  
 
