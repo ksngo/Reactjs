@@ -21,8 +21,12 @@
     "build3" : "./node_modules/.bin/babel ./3/sample.jsx -o ./3/js/sample.js -w",
     "build" : "./node_modules/.bin/babel <source_directory> -o script-compiled.js",
     "build4" : "./node_modules/.bin/babel ./4/jsx -d ./4/js -w",
-    "build5" : "./node_modules/.bin/babel ./5/jsx -d ./5/js -w"
-
+    "build5" : "./node_modules/.bin/babel ./5/jsx -d ./5/js -w",
+    "build6.1" : "./node_modules/.bin/babel ./6/6.1/jsx -d ./6/6.1/js -w",
+    "build6.2" : "./node_modules/.bin/babel ./6/6.2/jsx -d ./6/6.2/js -w",
+    "build6.6" : "./node_modules/.bin/babel ./6/6.6/jsx -d ./6/6.6/js -w",
+    "build6.7" : "./node_modules/.bin/babel ./6/6.7/jsx -d ./6/6.7/js -w",
+    "build6.11" : "./node_modules/.bin/babel ./6/6.11/jsx -d ./6/6.11/js -w"
   },
   "repository": {
     "type": "git",
