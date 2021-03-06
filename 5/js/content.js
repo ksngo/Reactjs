@@ -16,7 +16,8 @@ class Content extends React.Component {
         }, 1000);
     }
     render() {
-        if (this.state.counter > 2) return React.createElement("div", null);
+        console.log('render in Content');
+        if (this.state.counter > 2) return React.createElement('div', null);
         return React.createElement(Logger, { time: this.state.currentTime });
     }
 }
