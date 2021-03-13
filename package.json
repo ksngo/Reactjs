@@ -28,7 +28,9 @@
     "build6.6": "./node_modules/.bin/babel ./6/6.6/jsx -d ./6/6.6/js -w",
     "build6.7": "./node_modules/.bin/babel ./6/6.7/jsx -d ./6/6.7/js -w",
     "build6.11": "./node_modules/.bin/babel ./6/6.11/jsx -d ./6/6.11/js -w",
-    "build7.1": "./node_modules/.bin/babel ./7/7.1/jsx -d ./7/7.1/js -w"
+    "build7.1": "./node_modules/.bin/babel ./7/7.1/jsx -d ./7/7.1/js -w",
+    "build7.2": "./node_modules/.bin/babel ./7/7.2/jsx -d ./7/7.2/js -w",
+    "build7.3": "./node_modules/.bin/babel ./7/7.3/jsx -d ./7/7.3/js -w"
   },
   "repository": {
     "type": "git",
