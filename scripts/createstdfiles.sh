@@ -7,3 +7,4 @@ touch script.jsx
 cp /workspace/Reactjs/6/6.1/jsx/script.jsx .
 cd ..
 cp /workspace/Reactjs/6/6.1/index.html .
+exit
