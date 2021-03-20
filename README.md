@@ -11,3 +11,7 @@
 * chmod +x ../../scripts/createstdfiles.sh  
 * ../../scripts/createstdfiles.sh  
 
+### notes
+
+* -w : watch flag(keep babel webpack running to compile JSX to JS)
+
