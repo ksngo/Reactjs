@@ -34,7 +34,8 @@
     "build8.1": "./node_modules/.bin/babel ./8/8.1/jsx -d ./8/8.1/js -w",
     "build8.2": "./node_modules/.bin/babel ./8/8.2/jsx -d ./8/8.2/js -w",
     "build9.1": "./node_modules/.bin/babel ./9/9.1/jsx -d ./9/9.1/js -w",
-    "build9.2": "./node_modules/.bin/babel ./9/9.2/menu-jsx/jsx -d ./9/9.2/menu-jsx/js -w"
+    "build9.2": "./node_modules/.bin/babel ./9/9.2/menu-jsx/jsx -d ./9/9.2/menu-jsx/js -w",
+    "build10": "./node_modules/.bin/babel ./10 -d ./10 -w"
   },
   "repository": {
     "type": "git",
