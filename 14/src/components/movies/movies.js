@@ -29,6 +29,8 @@ class Movies extends React.Component {
   //**(6) children should be the content placed between <Movies> </Movies> */
   //**(7) movies are added to this.props by connect() provided by react-redux */
   //**(8) params contains the :id */
+  //**(9) the Movies component referred in src/routes.js , '<Route component={Movies}></Route>'  */
+  //**(10) the children here refers to <Route path=":id" component={Movie} />  */
   render() {
     const {
       children,
