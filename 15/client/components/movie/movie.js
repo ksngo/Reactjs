@@ -23,7 +23,7 @@ class Movie extends React.Component {
     }
   }
 
-  //**(8) clean will change the multiline template string to single line. Query cannot take in multiline template string  */
+  //**(8) clean will change the multiline template literal to single line. Query cannot take in multiline template literal  */
   //**(9) this.props.fetchMovie points to fetchMovieActionCreator */
   //**(10) response is the server response for graphql that is setup in server/index.js. It contains the movie data.  */
   //**(11) fetchMovie(response) will store the response or data in the store(redux) which is available by this.props.movie(make available by the connect() below ) */
