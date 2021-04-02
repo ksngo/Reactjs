@@ -3,17 +3,14 @@ const { handleActions } = require('redux-actions')
 const FETCH_MOVIES = 'movies/FETCH_MOVIES'
 const FETCH_MOVIE = 'movies/FETCH_MOVIE'
 
-//**(1) fetchMoviesActionCreator: (movies) , movies points to require(movies.json)  */
-//**(2) in handleActions(), action.movies will point to the movies in featchMoviewsActionCreator:(movies) */
-
 module.exports = {
-    fetchMoviesActionCreator: (movies) => ({
+    fetchMoviesActionCreator: (response) => ({
         type: FETCH_MOVIES,
-        movies
+        movies: response.data.data.movies
     }),
-    fetchMovieActionCreator: (index) => ({
+    fetchMovieActionCreator: (response) => ({
         type: FETCH_MOVIE,
-        index
+        movie: response.data.data.movie
     }),
     reducer: handleActions({
         [FETCH_MOVIES]: (state, action) => ({
@@ -22,7 +19,7 @@ module.exports = {
         }),
         [FETCH_MOVIE]: (state, action) => ({
             ...state,
-            current: state.all[action.index - 1]
+            current: action.movie
         })
     }, {
         movies: [],
