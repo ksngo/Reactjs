@@ -1,0 +1,24 @@
+{
+  "name": "react_express",
+  "version": "1.0.0",
+  "description": "Using express server to serve html files to browser. Jsx is convert to Js and then passed to template engine. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-react": "6.11.1",
+    "babel-register": "6.11.6",
+    "errorhandler": "1.4.3",
+    "express": "4.14.0",
+    "hbs": "4.0.0",
+    "react": "15.5.4",
+    "react-dom": "15.5.4"
+  },
+  "babel": {
+    "presets" : ["react"]
+  }
+}
