@@ -15,7 +15,7 @@ npx create-react-app my-app
 2. my implementation: (does not consists of any history; only record of present state of board game values)
 -
 1. tutorial implementation : (winner calculate by extracting the winning combi of three indexs, check the three indexes back in the latest history squares that they are all either 'x' or 'o')
-2. my implementation : (winner calculate by checking winning combi(three indexs) Array against cur
+2. my implementation : (winner calculate by checking winning combi(three indexs) Array against current results Array if the three indexs appear completely in the current results Array
 
 ### ----------End of my notes --------
 
