@@ -1,12 +1,12 @@
 # Getting Started with Create React App
 
-# --------My Notes ---------
-# How to create react app ?
+## --------My Notes ---------
+### How to create react app ?
 npx create-react-app my-app
 
-# tutorial link : https://codepen.io/gaearon/pen/gWWZgR?editors=0010
+### tutorial link : https://codepen.io/gaearon/pen/gWWZgR?editors=0010
 
-# Differences:
+### Differences:
 1. tutorial implementation :(It creates empty array of 9 spaces, and store into a particular index)
 2. my impementation : (I create object to store the 9 different values)
 
@@ -16,7 +16,7 @@ npx create-react-app my-app
 1. tutorial implementation : (winner calculate by extracting the winning combi of three indexs, check the three indexes back in the latest history squares that they are all either 'x' or 'o')
 2. my implementation : (winner calculate by checking winning combi(three indexs) Array against cur
 
-# ----------End of my notes --------
+### ----------End of my notes --------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
